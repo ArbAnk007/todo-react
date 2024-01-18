@@ -1,0 +1,35 @@
+.todo-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-input {
+    height: 50px;
+    width: 768px;
+    background-color: white;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    padding: 12px;
+    font-size: 24px;
+    font-family: cursive;
+
+}
+
+.enter-todo-btn {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.enter-todo-btn img {
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+}

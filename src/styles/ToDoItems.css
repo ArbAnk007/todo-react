@@ -1,0 +1,48 @@
+.todo-container {
+    margin-top: 12px;
+}
+
+.todo {
+    height: 50px;
+    width: 818px;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-display {
+    height: 50px;
+    width: 818px;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    outline: none;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.completed-checkbox {
+    height: 25px;
+    width: 25px;
+    margin-right: 12px;
+}
+
+.functionality-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.functionality-container img {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
